@@ -8,6 +8,8 @@ git commit -m "first commit"
 git push -u origin
 
 
+
+
 建立分支
 $ git branch <branchname>
 
@@ -23,3 +25,5 @@ $ git merge <branchname>
 
 刪除分支
 $ git branch -d <branchname>
+
+git pull = git fetch + git merge
