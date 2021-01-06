@@ -6,9 +6,11 @@ $git add .
 $git commit -m "first commit"
 $git push -u origin
 
-註:若遠端的檔案被更新過導致不能push時 要先把遠端的拉到本地再push
-$ git push
-
+註:若遠端的檔案被更新過導致不能push時，使用下面其中一種方法把遠端的拉到本地再push
+$ git pull
+或是
+$ git fetch
+$ git merge FETCH_HEAD
 =====================================================
 建立分支
 $ git branch <branchname>
