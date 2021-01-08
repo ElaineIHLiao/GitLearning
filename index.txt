@@ -33,6 +33,3 @@ $ git status
 
 $ git log ([press q to quit])
 git pull = git fetch + git merge
-
-
-test AAA
