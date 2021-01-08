@@ -1,0 +1,53 @@
+<html>
+    <head>
+        Git Commands
+    </head>
+    <body>
+        $git clone https://github.com/ElaineIHLiao/GitLearning.git
+
+
+        把本地更新到遠端
+        $git add .
+        $git commit -m "first commit"
+        $git push -u origin
+        
+        註:若遠端的檔案被更新過導致不能push時，使用下面其中一種方法把遠端的拉到本地再push
+        $ git pull
+        或是
+        $ git fetch
+        $ git merge FETCH_HEAD
+        =====================================================
+        建立分支
+        $ git branch <branchname>
+        
+        查看目前有那些分支
+        $ git branch
+        
+        切換分支
+        $ git checkout <branchname>
+        
+        將某個分支merge進master
+        $ git checkout master
+        $ git merge <branchname>
+        
+        刪除分支
+        $ git branch -d <branchname>
+        
+        查看當前狀態
+        $ git status
+        
+        $ git log ([press q to quit])
+        git pull = git fetch + git merge
+        
+        ======
+        How to create a remote repo
+        1. log in github. on the UI, new a repo.
+        2. copy the git https URL.
+        3. on the local repo, pasted the commands
+        $git remote add origin https://github.com/ElaineIHLiao/<remote_repo>.git
+        $git branch -M main
+        $git push -u origin main
+    </body>
+</html>>
+
+
