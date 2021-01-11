@@ -35,3 +35,5 @@
             回到之前某個commit的狀態
             $git log
             $git checkout <branch ramdom id 前兩碼>
+
+abc
