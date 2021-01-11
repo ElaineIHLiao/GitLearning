@@ -1,12 +1,3 @@
-<html>
-    <head>
-        <title>
-        Git Commands
-        </title>
-    </head>
-    <body>
-
-        <pre>
             $git clone https://github.com/ElaineIHLiao/GitLearning.git
 
             把本地更新到遠端 
@@ -40,9 +31,7 @@
             
             $ git log ([press q to quit])
             git pull = git fetch + git merge
-        </pre>       
-        <img src="./images/git_overview.png">
-    </body>
-</html>>
 
-
+            回到之前某個commit的狀態
+            $git log
+            $git checkout <branch ramdom id 前兩碼>
