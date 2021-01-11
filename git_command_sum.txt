@@ -37,3 +37,4 @@
             $git checkout <branch ramdom id 前兩碼>
 
             a
+            b
