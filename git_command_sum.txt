@@ -1,3 +1,9 @@
+01~09堂線上講義：https://hexschool.tw/n1C7O
+10~18堂線上講義：https://hexschool.tw/PDcLZ
+19~25堂線上講義：https://hexschool.tw/qCPbw
+26~32堂線上講義：https://hexschool.tw/v9bxz
+33~36堂線上講義：https://hexschool.tw/jjq1M
+ 
             $git clone https://github.com/ElaineIHLiao/GitLearning.git
 
             把本地更新到遠端 
@@ -17,7 +23,7 @@
             $ git branch
             
             切換分支
-            $ git checkout &ltbranchname&gt
+            $ git checkout <branchname>
             
             將某個分支merge進master
             $ git checkout master
@@ -36,3 +42,8 @@
             $git log
             $git checkout <branch ramdom id 前兩碼>
             $git checkout <currnet branch> //回到最新的狀態
+
+            新增檔案時，檔案還沒加追蹤時，清空工作目錄
+            * 顯示此次清除的檔案：git clean -n
+            * 強制清除檔案：git clean -f 
+
