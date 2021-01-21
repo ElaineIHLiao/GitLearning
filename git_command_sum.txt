@@ -36,6 +36,7 @@
             $git log
             $git checkout <branch ramdom id 前兩碼>
             $git checkout <currnet branch> //回到最新的狀態
-
+            $git reset HEAD^ (回到上一個commit)
 
 https://learngitbranching.js.org/
+
