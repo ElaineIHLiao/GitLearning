@@ -36,3 +36,6 @@
             $git log
             $git checkout <branch ramdom id 前兩碼>
             $git checkout <currnet branch> //回到最新的狀態
+
+
+https://learngitbranching.js.org/
