@@ -40,10 +40,11 @@
 
             回到之前某個commit的狀態
             $git log
-            $git checkout <branch ramdom id 前兩碼>
+            $git checkout <commit ramdom id 前兩碼>
             $git checkout <currnet branch> //回到最新的狀態
-
-            新增檔案時，檔案還沒加追蹤時，清空工作目錄
-            * 顯示此次清除的檔案：git clean -n
-            * 強制清除檔案：git clean -f 
-
+            
+            恢復(往前推一個commit，使用於master上)
+            $git reset HEAD^
+            恢復(往前推一個commit，使用於非master的分支上)
+            $git add .
+            $git reset HEAD^ --hard
