@@ -1,4 +1,4 @@
-
+COMMIT1
             $git clone https://github.com/ElaineIHLiao/GitLearning.git
 
             把本地更新到遠端 
