@@ -21,7 +21,8 @@
             
             查看目前有那些分支
             $ git branch
-            
+            查看遠端目前有那些分支
+            $ git branch --remote
             切換分支
             $ git checkout <branchname>
             
@@ -46,5 +47,4 @@
             恢復(往前推一個commit，使用於master上)
             $git reset HEAD^
             恢復(往前推一個commit，使用於非master的分支上)
-            $git add .
-            $git reset HEAD^ --hard
+            $git reset --hard
